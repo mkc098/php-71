@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    background: beige;
+}
+header{
+    height: 180px;
+}
+.logo{
+    height: 180px;
+    width: 20%;
+    float: left;
+}
+.logo > img{
+    width: 100%;
+    height: 180px;
+}
+.banner{
+    float: left;
+    width: 80%;
+
+}
+.banner > img{
+    width: 100%;
+    height: 180px;
+}
+
+.ul{
+    width: 100%;
+    height: 40px;
+    margin-top: 2px;
+    background: #ffffff;
+}
+.ul li{
+    float: left;
+    display: block;
+}
+.ul li a{
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 10px;
+}
+section{
+    background: white;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+
+.welcome h1{
+    margin: 20px;
+
+}
+.welcome p{
+    margin: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    height: 50px;
+    background: bisque;
+
+    display: block;
+}
+footer p{
+    padding: 10px;
+}
